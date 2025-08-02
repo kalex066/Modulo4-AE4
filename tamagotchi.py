@@ -28,6 +28,9 @@ class Tamagotchi:
         print(f"El {self.nombre} está siendo curado, su felicidad es {self.felicidad}, su salud {self.salud} y su energía se mantiene en {self.energia}" )
         return self
     
+    def presentarse(self):
+        raise NotImplementedError
+    
     @classmethod
     def muestra_tamagotchis(cls):
         for i in cls.lista_tamagotchis: 

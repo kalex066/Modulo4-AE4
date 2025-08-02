@@ -37,4 +37,3 @@ Tamagotchi.muestra_tamagotchis()
 
 
 
-

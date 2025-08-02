@@ -16,6 +16,10 @@ class Gozarutchi(Tamagotchi):
             print(f"Tu tamagotchi {self.nombre} necesita más entrenamiento")
         return self
     
+    def jugar(self):
+        print("Jugar???? Yo soy un ninja, los ninjas no jugamos, los ninja peleamos!!!!!")
+        return self
+    
     def presentarse (self):
          print(f"¡Hola yo soy {self.nombre}, de color {self.color}, mi nivel de salud es {self.salud}, mi nivel de energia es {self.energia}, mi nivel de felicidad es {self.felicidad} y he realizado {self.entrenamiento} entrenamientos")
          return self

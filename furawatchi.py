@@ -15,5 +15,5 @@ class Furawatchi(Tamagotchi):
         return self
     
     def presentarse (self):
-         print(f"¡Hola yo soy {self.nombre}, de color {self.color}, mi nivel de salud es {self.salud}, mi nivel de energia es {self.energia}, he cultivado {self.flores} y por eso mi nivel de felicidad es {self.felicidad}")
+         print(f"¡Hola yo soy {self.nombre}, he cultivado {self.flores} y por eso mi nivel de felicidad es {self.felicidad}")
          return self
